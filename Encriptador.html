@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="Encriptador.css">
+</head>
+<body>
+    <header></header>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <textarea name="data" id="data" placeholder="Ingrese el texto aquí"></textarea>
+            <p id="warning">Solo letras minúsculas y sin acentos</p>
+            <div class="presentacion__enlaces">
+                <button class="boton" id="enc">Encriptar!</button>
+                <button class="boton boton--desencriptar" id="des">Desencriptar!</button>
+            </div>
+        </section>
+        <section class="presentacion__resultado">
+            <textarea name="result" id="texto_out" readonly></textarea>
+            <button class="boton boton--copiar" id="copiar">Copiar</button>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="Encriptador.js"></script>
+</body>
+</html>
